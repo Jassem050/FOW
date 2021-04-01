@@ -1,0 +1,20 @@
+/* Print Page CSS */
+@media print {
+    body {
+        margin: 0 auto;
+        line-height: 1em;
+        word-spacing:1px;
+        letter-spacing:0.2px;
+        font: 14px "Times New Roman", Times, serif;
+        background: skyblue;
+        color:black;
+        width: 100%;
+      }
+    .col-md-6
+    {
+        float: left;
+        text-align: justify;
+        line-height: 4px;
+        
+    }
+}
